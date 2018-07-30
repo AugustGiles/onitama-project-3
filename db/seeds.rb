@@ -64,7 +64,6 @@ horse.moves << move12
 horse.moves << move8
 horse.moves << move17
 
-<<<<<<< HEAD
 monkey = new Card(title: "Monkey", qoute: "Without deception you cannot carry out startegy, without strategy you connot control the opponent.")
 monkey.moves << move7 
 monkey.moves << move16 
@@ -120,7 +119,6 @@ cobra = new Card(title: "Cobra", quote: "Attack violently when your opponents ar
 cobra.moves << move12 
 cobra.moves << move9 
 cobra.moves << move18
-=======
 # ========  P A W N S  ===========
 
 new Pawn(player_id: 1, type: "student", on_board: true, color: "red", x: 0, y: 0)
@@ -134,7 +132,6 @@ new Pawn(player_id: 2, type: "student", on_board: true, color: "blue", x: 4, y: 
 new Pawn(player_id: 2, type: "sensei", on_board: true, color: "blue", x: 4, y: 2)
 new Pawn(player_id: 2, type: "student", on_board: true, color: "blue", x: 4, y: 3)
 new Pawn(player_id: 2, type: "student", on_board: true, color: "blue", x: 4, y: 4)
->>>>>>> 1094474e64be6a9178c95e293e263a58272ed082
 
 # ========  P L A Y E R S  ===========
 
