@@ -42,28 +42,29 @@ tiger.moves << move3
 ox = new Card(title: "Ox", quote: "Pour your strength into the forms of your Art- in its punches, its kicks, in the steady advance of your aggression.")
 ox.moves << move8
 ox.moves << move17
-ox.moves << move13 
+ox.moves << move13
 
 mantis = new Card(title: "Mantis", quote: "Your opponent sees, but does not understand. Distract the watchful, misguide the wary. This is the Art of the Mantis, the Art of the deceptive strike.")
 mantis.moves << move7
-mantis.moves << move9 
-mantis.moves << move17 
+mantis.moves << move9
+mantis.moves << move17
 
 eel = new Card(title: "Eel", quote: "If you opponent strikes with fire, counter with water, becoming completely fluid and freeflowing.")
-eel.moves << move7 
-eel.moves << move13 
-eel.moves << move16 
+eel.moves << move7
+eel.moves << move13
+eel.moves << move16
 
 frog = new Card(title: "Frog", quote: "Do not fail to learn from the pure voice of an ever-flowing mountian stream spalshing over the rocks. Emulate its flow, mimic its power.")
-frog.moves << move7 
+frog.moves << move7
 frog.moves << move11
-frog.moves << move18 
+frog.moves << move18
 
 horse = new Card(title: "Horse", quote: "Lose yourself in the rythm of your Art. At times be swift and decisive, at other times measured and taunting.")
-horse.moves << move12 
-horse.moves << move8 
+horse.moves << move12
+horse.moves << move8
 horse.moves << move17
 
+<<<<<<< HEAD
 monkey = new Card(title: "Monkey", qoute: "Without deception you cannot carry out startegy, without strategy you connot control the opponent.")
 monkey.moves << move7 
 monkey.moves << move16 
@@ -119,4 +120,24 @@ cobra = new Card(title: "Cobra", quote: "Attack violently when your opponents ar
 cobra.moves << move12 
 cobra.moves << move9 
 cobra.moves << move18
+=======
+# ========  P A W N S  ===========
 
+new Pawn(player_id: 1, type: "student", on_board: true, color: "red", x: 0, y: 0)
+new Pawn(player_id: 1, type: "student", on_board: true, color: "red", x: 0, y: 1)
+new Pawn(player_id: 1, type: "sensei", on_board: true, color: "red", x: 0, y: 2)
+new Pawn(player_id: 1, type: "student", on_board: true, color: "red", x: 0, y: 3)
+new Pawn(player_id: 1, type: "student", on_board: true, color: "red", x: 0, y: 4)
+
+new Pawn(player_id: 2, type: "student", on_board: true, color: "blue", x: 4, y: 0)
+new Pawn(player_id: 2, type: "student", on_board: true, color: "blue", x: 4, y: 1)
+new Pawn(player_id: 2, type: "sensei", on_board: true, color: "blue", x: 4, y: 2)
+new Pawn(player_id: 2, type: "student", on_board: true, color: "blue", x: 4, y: 3)
+new Pawn(player_id: 2, type: "student", on_board: true, color: "blue", x: 4, y: 4)
+>>>>>>> 1094474e64be6a9178c95e293e263a58272ed082
+
+# ========  P L A Y E R S  ===========
+
+p1 = new Player
+p2 = new Player
+p3 = new Player
